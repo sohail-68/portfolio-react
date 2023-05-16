@@ -1,0 +1,129 @@
+h2{
+    text-align: center;
+}
+.list li{
+    display: inline;
+    margin: 3em;
+    display: none;
+    /* text-align: center; */
+}
+.footer{
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    margin-left: 0rem;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: larger;
+    
+}
+.footer-main h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font: 200 1.4rem bolder;
+ 
+    text-transform: uppercase;
+}
+.footer-main h1::first-letter{
+color: blue;
+/* font-size: xx-large; */
+
+}
+.footer-head{
+    text-align: center;
+    margin-top: 3rem;
+    /* color: blue; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.footer-head::first-letter{
+   color: blue;
+}
+.footer-lorem{
+    text-align: center;
+    font-size: larger;
+    margin-top: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+AiOutlineInstagram{
+    color: red;
+}
+/* .SOHAIL{
+    color: black;
+    background-color: black;
+} */
+.footer-list li{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    list-style: none;
+    font-style: italic;
+    color: orangered;
+
+
+}
+.list li{
+    margin-top: 1rem;
+  
+    
+}
+.faphone{
+    color: green;
+    
+
+}
+.fa{margin-left: 3rem;
+    color: black;
+
+
+
+}
+.fal{
+    margin-left: 3rem;
+    color: black;
+ 
+}
+.faw{
+    margin-left: 3rem;
+    color: black;
+
+
+}
+.copyright{
+    text-align: center;
+}
+.footer-main{
+    text-align: center;
+    margin-top: 1rem;
+    
+
+}
+.footer-main h2{
+    color:darkslategray ;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-left: 1rem;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    position: relative;
+    top: 1rem;
+    gap: 5px;
+    font-size: 1.3rem;
+
+}
+.phone > p{
+    font-size: 1.6rem;
+    color: black;
+}
